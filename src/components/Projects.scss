@@ -68,6 +68,10 @@
     overflow-y: auto;
     background-color: yellow;
     border-radius: 10px;
+    @media (max-width: 576px) {
+        width: 350px;
+        height: 650px;  
+       }
     .closebtn{
         position: absolute;
         right: 0;
