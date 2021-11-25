@@ -14,7 +14,10 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding-inline: 15px;
+        padding-inline: 150px;
+        @media (max-width: 576px) {
+            padding-inline: 15px;  
+           }
         .project-contain{
             font-size: 20px;
             background-color: $orange-web;
