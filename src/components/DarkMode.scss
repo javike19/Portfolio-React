@@ -1,0 +1,20 @@
+.btn-darkmode{
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    border-radius: 100%;
+    padding: 0.5rem;
+    cursor: pointer;
+    :active{
+        opacity: 50%;
+    }
+}
+
+.sun{
+    
+    color: black;
+}
+
+.moon{
+    color: white;
+}

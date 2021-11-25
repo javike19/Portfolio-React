@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import WrapperLang from "../src/components/Wrapper";
+
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <WrapperLang>
     <App />
-  </React.StrictMode>,
+    </WrapperLang>,
   document.getElementById('root')
 );
 

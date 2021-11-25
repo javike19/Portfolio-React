@@ -1,0 +1,63 @@
+@import "../main.scss";
+
+
+.intro-contain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-inline: 100px;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    .intro-title{
+        h1{
+            font-size: 40px;
+        }
+        h2{
+            font-size: 30px;
+        }
+    }
+    
+}
+
+@media (max-width: 576px) {
+    .intro-contain{
+        margin-inline: 10px;
+    }
+}
+
+.intro-info-pic{
+    padding: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.479);
+    &:hover{
+        transition: 0.5s;
+        transform: scale(102%);
+        box-shadow: 0 10px 26px rgba(0, 0, 0, 0.479);
+    }
+    .intro-info{
+        align-content: space-around;
+        width: 40vh;
+        margin-bottom: 20px;
+        .title-info{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .description-info{
+            font-size: 17px;
+        }
+    }
+    .intro-pic{
+        align-items: center;
+        width: 40vh;
+        img{
+            width: 30vh;
+            border-radius: 10px;
+        }
+    }
+}
+

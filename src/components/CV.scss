@@ -1,0 +1,97 @@
+.cv-contain{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h3{
+        font-size: 30px;
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.479);
+        text-transform: uppercase;
+    }
+    a{
+        font-size: 20px;
+        width: 300px;
+        text-decoration: none;
+        font-weight: bold;
+        border: solid 5px rgb(255, 255, 255);
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 30px;
+        border-radius: 30px;
+        &:hover{
+            transition: 0.2s;
+            background-color: rgba(0, 0, 0, 0.158);
+        }
+    }
+}
+
+.timeline-contain{
+    display: flex;
+    justify-content: center;
+    .list-contain{
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        li{
+            padding: 1px;
+            padding-inline: 15px ;
+            line-height: 20px;
+            background-color: goldenrod;
+            border-radius: 10px;
+            margin-bottom:20px ;
+            
+            position: relative;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.479);
+            &:hover{
+                transition: 0.5s;
+                transform: scale(105%);
+                box-shadow: 0 20px 26px rgba(0, 0, 0, 0.479);
+            }
+        
+            
+            .title-experience{
+                font-weight: bold;
+                font-size: 17px;
+            }
+            .data-experience{
+                font-size: 15px;
+            }
+            .year-experience{
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+.education-li{
+    left: 50%;
+}
+
+.work-li{
+    right: 50%;
+}
+
+.year-title{
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.479);
+}
+
+@media (max-width: 576px) {
+    .education-li{
+        left: 0%;
+    }
+    .work-li{
+        right: 0%;
+    }
+    
+}

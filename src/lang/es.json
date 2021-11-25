@@ -1,0 +1,71 @@
+{
+        "name": "Javier Moreno Montejo",
+        "profession": "Desarrollador Full Stack",
+        
+        "info.title": "¿Quién soy?",
+        "info.description": "Mi nombre es Javier Moreno Montejo. Desarrollador Full Stack. Tengo 24 años y soy de Madrid, España. Soy un apasionado de los ordenadores, videojuegos, negocios y tecnología en general. También soy jugador de balonmano y amo el deporte.",
+        
+        "projects.title": "Proyectos",
+        "projects": [
+                {
+                    "title": "GTA San Andreas fanWeb",
+                    "startDate": "Octubre 2021",
+                    "description": "Mi primera página web estática, sin ninguna funcionalidad. Después de haber entendido los estilos CSS y la estructura HTML creé una pequeña web informativa sobre uno de mis videojuegos favoritos, GTA San Andreas.",
+                    "images": [],
+                    "url": "",
+                    "technologies": [
+                        {
+                            "logo": "",
+                            "name": ""
+                        }
+                    ]
+                }
+        ],
+    
+        "technologies.title": "Tecnologías",
+        "technologies": [
+            {
+            "tech1": "HTML 5",
+            "tech2": "CSS 3",
+            "tech3": "Sass",
+            "tech4": "JavaScript",
+            "tech5": "Angular",
+            "tech6": "Mongo DB",
+            "tech7": "Node",
+            "tech8": "Git",
+            "Tech9": "PHP",
+            "Tech10": "mySQL"
+            }
+        ],
+    
+        "experience.title": "Experiencia",
+        "work.title": "Trabajo",
+        "education.title": "Estudios",
+        "CV.link": "Ver el CV Online",
+    
+        "work.1": "Repartidor autónomo",
+        "work.experience.1": "Amazon Flex, Uber Eats, Glovo y Lola Market",
+        "final.year.1": "Último año: 2021",
+        "work.2": "Estudiante en prácticas",
+        "work.experience.2": "Loginova SL. Empresa de logística de marketing",
+        "final.year.2": "Último año: 2020",
+        "work.3": "Repartidor de pizza",
+        "work.experience.3": "Mi primer trabajo en Telepizza",
+        "final.year.3": "Último año: 2018",
+        "work.4": "Jugador de Balonmano",
+        "work.experience.4": "'Balonmano Sanse'",
+        "final.year.4": "Actualmente",
+    
+        "education.1": "Bootcamp Full Stack Developer",
+        "school.1": "Upgrade Hub",
+        "final.year.5": "Último año: 2021",
+        "education.2": "Master en Digital Marketing and e-Commerce",
+        "school.2": "EAE Business School",
+        "final.year.6": "Último año: 2022",
+        "education.3": "Comercio Internacional",
+        "school.3": "Universidad Europea",
+        "final.year.7": "Último año: 2020",
+        "education.4": "Ciencias Políticas",
+        "school.4": "Universidad Complutense de Madrid",
+        "final.year.8": "Último año: 2018"
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Javier Moreno Montejo",
+    "profession": "Full Stack Developer",
+    
+    "info.title": "Who I am?",
+    "info.description": "My name is Javier Moreno Montejo. Full Stack Junior Developer.I'm 24 years old and I'm from Madrid, Spain. I'm passionate about computers, videogames, business and technology in general. I'm also a handball player and I love sports.",
+    
+    "projects.title": "Projects",
+    
+
+    "technologies.title": "Technologies",
+    "technologies": [
+        {
+        "tech1": "HTML 5",
+        "tech2": "CSS 3",
+        "tech3": "Sass",
+        "tech4": "JavaScript",
+        "tech5": "Angular",
+        "tech6": "Mongo DB",
+        "tech7": "Node",
+        "tech8": "Git",
+        "Tech9": "PHP",
+        "Tech10": "mySQL"
+        }
+    ],
+
+    "experience.title": "Experience",
+    "work.title": "Work",
+    "education.title": "Education",
+    "CV.link": "Go to CV online",
+
+    "work.1": "Autonomous delivery",
+    "work.experience.1": "Amazon Flex, Uber Eats, Glovo and Lola Market",
+        "final.year.1": "Last year: 2021",
+        "work.2": "Intern Student",
+        "work.experience.2": "Loginova SL. Marketing logistics company ",
+        "final.year.2": "Last year: 2020",
+        "work.3": "Pizza delivery",
+        "work.experience.3": "My first job in Telepizza",
+        "final.year.3": "Last year: 2018",
+        "work.4": "Handball player",
+        "work.experience.4": "'Balonmano Sanse'",
+        "final.year.4": "Currently",
+    
+        "education.1": "Bootcamp Full Stack Developer",
+        "school.1": "Upgrade Hub",
+        "final.year.5": "Last year: 2021",
+        "education.2": "Master en Digital Marketing and e-Commerce",
+        "school.2": "EAE Business School",
+        "final.year.6": "Last year: 2022",
+        "education.3": "International Trade",
+        "school.3": "Universidad Europea",
+        "final.year.7": "Last year: 2020",
+        "education.4": "Political Sciences",
+        "school.4": "Universidad Complutense de Madrid",
+        "final.year.8": "Last year: 2018"
+}

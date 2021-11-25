@@ -1,0 +1,28 @@
+.footer-contain{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 15px 5px 10px rgba(0, 0, 0, 0.479);
+}
+.contact-contain{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    .card-contact{
+        background-color: #e5e5e5ff;
+        border-radius: 100%;
+        &:hover{
+            transition: 0.2s;
+            transform: scale(110%);
+        }
+        img{
+            display: block;
+            margin: auto;
+            padding: 10px;
+            width: 30px;
+            
+        }
+    }
+}
