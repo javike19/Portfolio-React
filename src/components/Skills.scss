@@ -13,6 +13,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        margin-inline: 15px;
         
         .tech-card{
             padding: 20px;
@@ -36,3 +37,4 @@
         }
     }
 }
+
