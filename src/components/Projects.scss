@@ -56,11 +56,11 @@
 
 .modal-content{
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 800px;
-    height: 875px;
+    height: 850px;
     text-align: center;
     overflow-y: auto;
     background-color: yellow;
@@ -116,7 +116,7 @@
             flex-direction: row;
             justify-content: space-evenly;
             img{
-                width: 100px;
+                width: 50px;
             }
         }
     }
