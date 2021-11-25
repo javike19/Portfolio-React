@@ -14,10 +14,14 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        padding-inline: 150px;
+        padding-inline: 200px;
+        @media (max-width: 1024px){
+            padding-inline: 150px;
+        }
         @media (max-width: 576px) {
-            padding-inline: 15px;  
+            padding-inline: 30px;  
            }
+        
         .project-contain{
             font-size: 20px;
             background-color: $orange-web;
@@ -68,10 +72,15 @@
     overflow-y: auto;
     background-color: yellow;
     border-radius: 10px;
+    @media (max-width: 1024px){
+
+    }
     @media (max-width: 576px) {
         width: 350px;
-        height: 650px;  
+        height: 600px;
+        top: 53%;
        }
+    
     .closebtn{
         position: absolute;
         right: 0;

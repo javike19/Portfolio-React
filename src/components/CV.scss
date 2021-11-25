@@ -93,5 +93,13 @@
     .work-li{
         right: 0%;
     }
-    
+}
+
+@media (max-width: 1024px) {
+    .education-li{
+        width: 300px;
+    }
+    .work-li{
+        width: 300px;
+    }
 }

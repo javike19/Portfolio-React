@@ -1,7 +1,6 @@
 .btn-darkmode{
-    display: block;
-    margin: auto;
     font-size: 15px;
+    border: 2px solid black;
     border-radius: 100%;
     padding: 0.5rem;
     cursor: pointer;
@@ -11,7 +10,9 @@
 }
 
 .sun{
-    
+    padding: 0px;
+    display: block;
+    margin: auto;
     color: black;
 }
 
